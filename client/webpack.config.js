@@ -24,7 +24,7 @@ module.exports = () => {
       }),
       //Configure workbox plugins for service worker and manifest file
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
       // Adds the manifest.json
